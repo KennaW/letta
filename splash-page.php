@@ -9,28 +9,42 @@
 
 <div class="secondary-background">
     <h1 class="tagline__position" id="wpsp-title"><?php echo esc_html( $this->settings['title'] ); ?></h1>
+	<div class="letter__width letter__position">
+		<img class="hero_image__width" src="wp-content/plugins/wp-splash-page/templates/kakenya/school.jpg"/>
+		<p>
+			During this season of giving, I hope you will join me in transforming the lives of girls in Kenya. Today, I share the stories of Linet and Cynthia, graduates of our boarding school, and perfect examples of what we can accomplish together. With your help, we can provide quality education, comprehensive support for their daily needs and a community-focused approach that changes the outlook for girls likely to undergo female genital mutilation and be forced into early marriage.
+		</p>
+		<img class="signature_width signature_position" src="wp-content/plugins/wp-splash-page/templates/kakenya/Kakenya_signature.png"/>
+		<br/>
+		<span class="kakenya__position">Kakenya Ntaiya</span>
+		<img class="bar__width bar__padding" src="wp-content/plugins/wp-splash-page/templates/kakenya/KakenyasDream_bar_long.png"/>
+
+
+	</div>
   <div class="profiles__position">
     <div class="display-inline-block profile__text__size">
       <h4 class="profile__text__align profile__color">Linet's Story</h4>
       <p class="profile__text__align">The story of Linet Moposhi's inspiring meeting and conversation with President Barak Obama during his visit to Kenya shows the power of girls education. Her story and that conversation which was covered in <i>The Washington Post</i> and Kenya's <i>The Standard</i> newspaper, touched many around the world.</p>
     </div>
     <div class="display-inline-block profile__image__size">
-      <img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/placeholder.jpg"/>
+      <img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/Linet_small.jpg"/>
     </div>
   </div>
   <div class="profiles__position">
     <div class="display-inline-block profile__image__size">
-      <img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/placeholder.jpg"/>
+      <img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/cynthia_small.jpg"/>
     </div>
     <div class="display-inline-block profile__text__size">
       <h4 class="profile__text__align profile__color">Cynthia's Story</h4>
-      <p class="profile__text__align">The story of Linet Moposhi's inspiring meeting and conversation with President Barak Obama during his visit to Kenya shows the power of girls education. Her story and that conversation which was covered in <i>The Washington Post</i> and Kenya's <i>The Standard</i> newspaper, touched many around the world.</p>
+      <p class="profile__text__align">Cynthia Lasoi had her moment with the Kenyan First Lady, Mrs. Margaret Kenyatta. Cynthia, who is 14 years old and in 9th grade, scored the highest mark in our county last year on her national exam. Cynthia, once one of our shyest students, was invited along with 94 other students to Pupils Reward Scheme (PURES) which is a mentorship, motivation and reward program established by Kenya’s First Lady to encourage the brightest boys and girls in the district.</p>
     </div>
   </div>
   <div class="calltoaction__position">
-  <h2 class="calltoaction__color">Yes! I will dream with kenya and help girls like Linet and Cynthia reach their goals!</h2>
+  <h2 class="calltoaction__color">Double your impact!<br/> Your gift will be matched by our Board of Directors through December 31st!</h2>
+	<div class="button__continue__padding">
   <a class="button__donate" href="https://donatenow.networkforgood.org/1440322">Donate</a>
-  	<a class="button__continue" href="<?php echo esc_url( $this->current_url ); ?>" ><?php echo esc_html( $this->settings['continue_button_text'] ); ?></a>
+</div>
+  	<a class="button__continue button__continue__padding" href="<?php echo esc_url( $this->current_url ); ?>" ><?php echo esc_html( $this->settings['continue_button_text'] ); ?></a>
   </div>
 </div>
 </body>

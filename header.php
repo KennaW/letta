@@ -47,6 +47,34 @@
       display: inline-block;
     }
 
+		.hero_image__width{
+			max-width: 100%;
+			height: auto;
+		}
+
+		.letter__width {
+			width: 80%;
+		}
+
+		.letter__position {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.signature_width {
+			max-width: 25%;
+			height: auto;
+		}
+
+		.signature_position {
+			text-align: center;
+		}
+
+		.kakenya__position{
+			margin-left: 15px;
+		}
+
     .logo__position {
       display: block;
       margin-left: auto;
@@ -103,6 +131,7 @@
     }
 
     .button__donate {
+				margin-bottom: 50px;
         text-decoration: none;
         background-color: #F37021;
         color: white;
@@ -116,6 +145,11 @@
       color: #7A121C;
       font-size: 1.5em;
     }
+
+		.button__continue__padding {
+			padding-top: 30px;
+			padding-bottom: 20px;
+		}
 
 		/* === Highlight === */
 		::selection {
