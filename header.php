@@ -14,7 +14,7 @@
 	<!-- === Embedding style.css === -->
 	<link rel="stylesheet" href="<?php echo esc_url( $this->template_url . 'style.css' ); ?>" type="text/css" media="all"/>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- === Dynamic Style === -->
 	<style type="text/css">
 
@@ -169,6 +169,38 @@
 		#wpsp-continue:hover {
 			background-color: #<?php echo $this->settings['continue_button_text_color']; ?>;
 			color: #<?php echo $this->settings['continue_button_bg_color']; ?>;
+		}
+  /*<!-- === Popup === -->*/
+		a.selected {
+		  background-color:#1F75CC;
+		  color:white;
+		  z-index:100;
+		}
+
+		.messagepop {
+		  background-color:#FFFFFF;
+		  border:1px solid #999999;
+		  cursor:default;
+		  display:none;
+		  margin-top: 15px;
+		  position:absolute;
+		  text-align:left;
+		  width:394px;
+		  z-index:50;
+		  padding: 25px 25px 20px;
+		}
+
+		label {
+		  display: block;
+		  margin-bottom: 3px;
+		  padding-left: 15px;
+		  text-indent: -15px;
+		}
+
+		.messagepop p, .messagepop.div {
+		  border-bottom: 1px solid #EFEFEF;
+		  margin: 8px 0;
+		  padding-bottom: 8px;
 		}
 
 	</style>

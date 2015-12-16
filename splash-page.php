@@ -24,7 +24,10 @@
   <div class="profiles__position">
     <div class="display-inline-block profile__text__size">
       <h4 class="profile__text__align profile__color">Linet's Story</h4>
-      <p class="profile__text__align">The story of Linet Moposhi's inspiring meeting and conversation with President Barak Obama during his visit to Kenya shows the power of girls education. Her story and that conversation which was covered in <i>The Washington Post</i> and Kenya's <i>The Standard</i> newspaper, touched many around the world.</p>
+      <p class="profile__text__align">The story of Linet Moposhi's inspiring meeting and conversation with President Barak Obama during his visit to Kenya shows the power of girls education.
+				 <a id="myHeader2" href="javascript:showonlyone('newboxes2');" >See More</a>
+			</p>
+			<div class="newboxes" id="newboxes2" style="border: 1px solid black; background-color: #CCCCCC; display: none;padding: 5px;">Her story and that conversation which was covered in <i>The Washington Post</i> and Kenya's <i>The Standard</i> newspaper, touched many around the world.</div>
     </div>
     <div class="display-inline-block profile__image__size">
       <img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/Linet_small.jpg"/>
@@ -36,7 +39,26 @@
     </div>
     <div class="display-inline-block profile__text__size">
       <h4 class="profile__text__align profile__color">Cynthia's Story</h4>
-      <p class="profile__text__align">Cynthia Lasoi had her moment with the Kenyan First Lady, Mrs. Margaret Kenyatta. Cynthia, who is 14 years old and in 9th grade, scored the highest mark in our county last year on her national exam. Cynthia, once one of our shyest students, was invited along with 94 other students to Pupils Reward Scheme (PURES) which is a mentorship, motivation and reward program established by Kenya’s First Lady to encourage the brightest boys and girls in the district.</p>
+      <p class="profile__text__align">Cynthia Lasoi had her moment with the Kenyan First Lady, Mrs. Margaret Kenyatta.
+			<a id="myHeader3" href="javascript:showonlyone('newboxes3');" >See More</a></p>
+     <div class="newboxes" id="newboxes3" style="border: 1px solid black; background-color: #CCCCCC; display: none;padding: 5px;"><p>
+			Cynthia, who is 14 years old and in 9th grade, scored the highest mark in our county last year on her national exam. Cynthia, once one of our shyest students, was invited along with 94 other students to Pupils Reward Scheme (PURES) which is a mentorship, motivation and reward program established by Kenya’s First Lady to encourage the brightest boys and girls in the district.</p></div>
+
+
+
+
+<script type="text/javascript">
+function showonlyone(thechosenone) {
+     $('.newboxes').each(function(index) {
+          if ($(this).attr("id") == thechosenone) {
+               $(this).toggle(200);
+          }
+          else {
+               $(this).hide(600);
+          }
+     });
+}
+</script>
     </div>
   </div>
   <div class="calltoaction__position">
