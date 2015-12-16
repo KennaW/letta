@@ -62,6 +62,10 @@
 			margin-right: auto;
 		}
 
+		.letter__margin {
+			margin-bottom: 20px;
+		}
+
 		.signature_width {
 			max-width: 25%;
 			height: auto;
@@ -98,7 +102,7 @@
     }
 
     .profiles__position{
-      width: 100%;
+      width: 40%;
       text-align: center;
     }
 
@@ -107,15 +111,15 @@
     }
 
     .profile__image__size{
-      width: 100px;
+      width: 120px;
     }
 
     .profile__text__size{
-      width: 600px;
+      /*width: 40%;*/
     }
 
     .profile__text__align {
-      text-align: left;
+      text-align: center;
     }
 
     .profile__color {
