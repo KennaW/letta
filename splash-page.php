@@ -13,26 +13,27 @@
 	<div class="letter__width letter__position">
 		<!-- <img class="hero_image__width" src="wp-content/plugins/wp-splash-page/templates/kakenya/school.jpg"/> -->
 		<p>
-			During this season of giving, I hope you will join me in transforming the lives of girls in Kenya. Today, I share the stories of Linet and Cynthia, graduates of our boarding school, and perfect examples of what we can accomplish together. With your help, we can provide quality education, comprehensive support for their daily needs and a community-focused approach that changes the outlook for girls likely to undergo female genital mutilation and be forced into early marriage.
+		During this season of giving, we hope you will join us in transforming the lives of girls in Kenya. Today, we share the stories of Linet and Cynthia, graduates of our boarding school, and perfect examples of what we can accomplish together. With your help, we can provide quality education, comprehensive support for their daily needs and a community-focused approach that changes the outlook for girls likely to undergo female genital mutilation and be forced into early marriage. Your gift today will make a difference in their lives! 
 		</p>
-		<div class="display-inline-block">
+		<!-- <div class="display-inline-block">
 		<img class="signature_position" src="wp-content/plugins/wp-splash-page/templates/kakenya/Kakenya_signature.png"/>
 		<br/>
 		<span class="kakenya__position">Kakenya Ntaiya</span>
-		<!-- <img class="bar__width bar__padding" src="wp-content/plugins/wp-s
-		plash-page/templates/kakenya/KakenyasDream_bar_long.png"/> -->
-		</div>
+		<img class="bar__width bar__padding" src="wp-content/plugins/wp-s
+		plash-page/templates/kakenya/KakenyasDream_bar_long.png"/>
+		</div> -->
+		<div class="profile__image__align">
+			<div class="display-inline-block profile__image__size profile__image__margin">
+				<a id="myHeader2" href="javascript:showonlyone('newboxes2');" >
+				<img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/Linet_small.jpg"/>
+				<h4 class="profile__text__align profile__color">Linet's Story</h4></a>
+			</div>
 
-		<div class="display-inline-block profile__image__size">
-			<a id="myHeader2" href="javascript:showonlyone('newboxes2');" >
-			<img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/Linet_small.jpg"/>
-			<h4 class="profile__text__align profile__color">Linet's Story</h4></a>
-		</div>
-
-		<div class="display-inline-block profile__image__size">
-			<a id="myHeader3" href="javascript:showonlyone('newboxes3');" >
-			<img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/cynthia_small.jpg"/>
-			<h4 class="profile__text__align profile__color">Cynthia's Story</h4></a>
+			<div class="display-inline-block profile__image__size profile__image__margin">
+				<a id="myHeader3" href="javascript:showonlyone('newboxes3');" >
+				<img class="profile__image__size" src="wp-content/plugins/wp-splash-page/templates/kakenya/cynthia_small.jpg"/>
+				<h4 class="profile__text__align profile__color">Cynthia's Story</h4></a>
+			</div>
 		</div>
 	</div>
 </div>

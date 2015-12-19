@@ -114,6 +114,15 @@
       width: 120px;
     }
 
+		.profile__image__align {
+			margin: 0 auto;
+			width: 320px;
+		}
+
+		.profile__image__margin{
+			margin: 0 15px;
+		}
+
     .profile__text__size{
       /*width: 40%;*/
     }
